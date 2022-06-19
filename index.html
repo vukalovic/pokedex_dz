@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+
+    <div class="center">
+        <h2 class="naslov">POKEDEX</h2>
+
+
+    </div>
+
+    <div>
+        <div class="button-container">
+
+
+            <button onclick="myFunction('pikachu')" class="addbutton">Pikachu</button>
+            <button onclick="myFunction('raichu')" class="addbutton">Raichu</button>
+            <button onclick="myFunction('squirtle')" class="addbutton">Squirtle</button>
+            <button onclick="myFunction('pero')" class="addbutton">Pero</button>
+        </div>
+
+        <div class="container">
+            <h3 id="name"></h3>
+            <p id="description"></p>
+            <img id="image" />
+
+        </div>
+
+        <div class="error-container hidden">
+            <h3>Nisam ti našao pokemona</h3>
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <script src="./onclick.js"></script>
+</body>
+
+</html>
